@@ -7,17 +7,47 @@
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
-        <div class="container">
-            <h1>최대공약수&최소공배수</h1>
-            <!-- input 들 -->
-            <input class="input" type="text" id="input1" placeholder="두 수 중 한개(자연수만)">
-            <input class="input" type="text" id="input2" placeholder="다른 한개(자연수만)">
-            <br>
-            <!-- 결과 -->
-            <p id="p1">최대공약수</p>
-            <p id="p2">최소공배수</p>
-            <button onclick="입력받기()">두 수 입력 완료</button>
-        </div>
+        <table>
+            <caption><b>최대공약수&최소공배수</b></caption>
+            <tr>
+                <th colspan="2">입력값</th>
+            </tr>
+            <tr><td colspan="2"><hr></td></tr>
+            <tr>
+                <td>
+                    <input class="input"
+                    type="text" id="input1"
+                    placeholder="두 수 중 한개(자연수만)">
+                </td>
+                <td>
+                    <input class="input"
+                    type="text" id="input2"
+                    placeholder="다른 한 수(자연수만)">
+                </td>
+            </tr>
+            <tr><td colspan="2"><hr></td></tr>
+            <tr>
+                <th colspan="2">결과</th>
+            </tr>
+            <tr><td colspan="2"><hr></td></tr>
+            <tr>
+                <td>
+                    <p id="p1">최대공약수</p>
+                </td>
+                <td>
+                    <p id="p2">최소공배수</p>
+                </td>
+            </tr>
+            <tr><td colspan="2"><hr></td></tr>
+            <tr>
+                <th colspan="2"><button onclick="입력받기()">
+                    두 수 입력 완료
+                </button></th>
+            </tr>
+        </table>
+        <!-- input 들 -->
+        <br>
+        <!-- 결과 -->
         <script src="script.js"></script>
     </body>
 </html>

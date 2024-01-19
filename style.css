@@ -1,29 +1,30 @@
 /* 결과 들 */
 #p1, #p2{
-    color: white;
-    background-color: skyblue;
     border: 3px groove black;
-    width: 80px;
-    display: inline-block;
+    background-color: rgb(214, 252, 175);
 }
+
 /* 입력 완료 버튼 */
 button{
     color: black;
     font-size: 20px;
+    background-color: skyblue;
+    border-radius: 10px;
+}
+
+table{
     background-color: antiquewhite;
-    display: block;
+    border: 3px solid skyblue;
+    border-top: none; padding: 10px;
+    border-radius: 15px; border-top-right-radius: 0px; border-top-left-radius: 0px;
 }
-/* 메인 div */
-.container{
-    border: 3px solid black;
-    padding: 10px;
-    height: 300px;
+caption{
+    background-color: lightgrey;
+    border: 3px solid skyblue;
+    font-size: 25px;
+    border-top-left-radius: 15px; border-top-right-radius: 15px;
 }
-/* 제목 */
-h1{
-    display: inline;
-}
-/* input 들 */
+
 .input{
-    display: block;
+    background-color: rgb(214, 252, 175);
 }
